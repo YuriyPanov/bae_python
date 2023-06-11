@@ -27,6 +27,10 @@
 
 Запускается проект при помощи запуска команды *python main.py*.
 
-*для корректной работы вам потребуется:*
+**для корректной работы вам потребуется:**
 1) скачанный браузер Chrome
-2) прописать в терминали следующие команды: pip install pandas, pip install telebot, pip install selenium, pip install matplotlib, pip install geopy, pip install dateparser, 
+2) прописать в терминали следующие команды: pip install pandas, pip install telebot, pip install selenium, pip install matplotlib, pip install geopy, pip install dateparser
+
+**если вы хотите полностью увидеть работу проекта, удалите следующие файлы перед запуском:**
+1) Москва_Санкт-Петербург.csv
+2) Москва_Санкт-Петербург.png
