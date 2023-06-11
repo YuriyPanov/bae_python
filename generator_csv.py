@@ -36,6 +36,7 @@ def generate_csv(b_generate_city, city_from="Москва", city_to="Санкт-
         ticket_manager.get_types_tickets()
 
     export_to_csv(ticket_manager.tickets, csv_name)
+    plot_graph(csv_name)
 
 def plot_graph(csv_name):
     df = pd.read_csv(csv_name)
