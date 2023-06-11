@@ -24,7 +24,7 @@ def generate_csv(b_generate_city, city_from="Москва", city_to="Санкт-
     ticket_manager = TicketsGetter(city_from[0], city_to[0])
     curr_date = get_random_date(get_today())
 
-    for i in range(0, 45):
+    for i in range(0, 20):
         ticket_manager.set_new_date(curr_date)
         curr_date = get_next_days(curr_date, 1)
         ticket_manager.first_load()
