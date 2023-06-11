@@ -17,4 +17,4 @@ if __name__ == "__main__":
 
     st.dataframe(df_to_show)
 
-    st.pyplot(fig, use_container_width = False)
+    st.pyplot(fig, use_container_width = True)
