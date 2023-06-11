@@ -2,6 +2,7 @@ from generator_csv import *
 import streamlit as st
 
 if __name__ == "__main__":
+    st.set_option('deprecation.showPyplotGlobalUse', False) #игнорим warning, так как он ни на что не влияет
     start_city = st.text_input('Откуда', 'Москва')
     end_city = st.text_input('Куда', 'Санкт-Петербург')
     with st.spinner('Идет парсинг, подождите...'):
